@@ -1,0 +1,16 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import  { App } from './App.jsx'
+
+// import { Practice } from './practice.jsx'
+
+// import Profile from './components/Prof/ile.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+    {/* <Practice></Practice> */}
+    {/* <Profile></Profile> */}
+  </StrictMode>
+)
